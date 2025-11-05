@@ -1,0 +1,8 @@
+__pycache__/
+*.tmp
+*.egg-info/
+.env
+.envrc
+*.log
+.DS_Store
+.ipynb_checkpoints/
