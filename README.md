@@ -28,7 +28,7 @@ Users can run each of these two functions individually if only human sequences o
 recurrent contaminants need to be removed, or alternatively (and highly recommended), 
 they can run VirMask as a whole:
 
-* [`Masking all together`](https://medvir.github.io/VirMask/Virmask/): spots and masks
+* [`VirMask`](https://medvir.github.io/VirMask/Virmask/): spots and masks
 human sequences and recurrent contaminants from the viral database.
 
 Some help can be obtained with `VirMask.sh -h`.
@@ -87,4 +87,6 @@ Required arguments:
 
 **Enjoy using VirMask!**
 
-![](documentation/docs/assets/logo.svg){: style="display:block; margin-left:auto; margin-right:auto; width:50%;" }
+<p align="center">
+  <img src="documentation/docs/assets/logo.svg" width="50%">
+</p>
