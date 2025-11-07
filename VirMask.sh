@@ -10,7 +10,7 @@ set -e -o pipefail
 function print_usage {
   printf """
 Usage: 
-virmask.sh -r <mNGS_runs> [options]
+VirMask.sh -r <mNGS_runs> [options]
 Options:
 	[-h or --help]
 	[-d or --virmet_db]

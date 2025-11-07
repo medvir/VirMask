@@ -21,7 +21,7 @@ parser = argparse.ArgumentParser(
 parser.add_argument(
     "--mNGS_runs",
     type=str, 
-    default="./mNGS_to_analyse.txt",
+    required=True,
     help="Path to a .txt file listing all mNGS runs to consider (one run per row)")
 parser.add_argument(
     "--virmet_db",

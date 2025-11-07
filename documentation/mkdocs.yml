@@ -1,0 +1,17 @@
+site_name: ""
+
+theme:
+  name: material
+  logo: assets/name.svg
+  features:
+    - toc.integrate 
+
+nav:
+  - Home: index.md
+  - Installation: Installation.md
+  - VirMask: Virmask.md
+  - Human masking: Human_contaminants.md
+  - Contaminants masking: Recurrent_contaminants.md
+
+markdown_extensions:
+  - pymdownx.extra

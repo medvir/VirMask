@@ -52,8 +52,6 @@ for i in range(1,26):
 
 chrs_merge_df['sum'] = chrs_merge_df.sum(axis=1, numeric_only=True)
 
-
-print('grep the titles')
 title_list = []
 for index, row in chrs_merge_df.iterrows():
     title = subprocess.check_output(["grep", row['virus'], VIRAL_DB])
