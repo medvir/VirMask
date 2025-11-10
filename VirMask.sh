@@ -175,16 +175,18 @@ makeblastdb -in ${target_dir}/viral_database.fasta \
 ${script_dir}/Recurrent_contaminants/Recurrent_masking.py \
     --mNGS_runs "${mNGS_runs}" \
     --virmet_db "${virmet_db}" \
-    --across_sample_freq ${across_sample_freq} \
-    --within_acc_dominance ${within_acc_dominance} \
-    --min_fragment_size ${min_fragment_size} \
-    --max_fragment_size ${max_fragment_size} \
-    --max_genome_perc ${max_genome_perc} \
-    --controls ${controls} \
-    --threads ${threads}
+    --across_sample_freq "${across_sample_freq}" \
+    --within_acc_dominance "${within_acc_dominance}" \
+    --min_fragment_size "${min_fragment_size}" \
+    --max_fragment_size "${max_fragment_size}" \
+    --max_genome_perc "${max_genome_perc}" \
+    --controls "${controls}" \
+    --threads "${threads}"
 
 # Remove intermediate files
 rm -r virmet_output*
+rm -r masked_to_chr*
+rm -r chr*/
 
 # Copy masked database to the database folder
 cp masked_viral_database.fasta ${virmet_db}/viral_nuccore/
