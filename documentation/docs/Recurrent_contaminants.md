@@ -68,4 +68,9 @@ Running the previous command should provide the following output files:
 * **Masked_viral_database.fasta**: the masked viral reference database (FASTA file).
 * **Homologous_regions_masked.fasta**: the extracted masked fragments used for validation.
 
+The other intermediate files are there for inspection only and can be removed by the users
+at any time. They show the VirMet outputs for each of the samples that have
+been analysed with the unmasked database. These are the outputs from which the recurrent
+contaminants have been extracted.
+
 **Enjoy removing Recurrent Contaminants!**
